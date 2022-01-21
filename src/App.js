@@ -1,4 +1,3 @@
-import "./App.css";
 import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
 
@@ -31,11 +30,9 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <NewExpense onAddExpense={addExpenseHandler} />
-        <Expenses expenses={expenses} />
-      </header>
+    <div>
+      <NewExpense onAddExpense={addExpenseHandler} />
+      <Expenses expenses={expenses} />
     </div>
   );
 }
