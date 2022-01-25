@@ -6,8 +6,6 @@ const ExpensesFilter = (props) => {
   const dropdownChangeHandler = (event) => {
     let selectedYear = event.target.value;
     props.onFilterChange(selectedYear);
-
-    // props.setFilterYear(selectedYear);
   };
   return (
     <div className="expenses-filter">
