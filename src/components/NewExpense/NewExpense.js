@@ -11,9 +11,11 @@ export default function NewExpense(props) {
     };
     props.onAddExpense(expenseData);
   };
+
   function clickHandler() {
     setInitialState(false);
   }
+  
   if (initialState === true) {
     return (
       <div className="new-expense">
