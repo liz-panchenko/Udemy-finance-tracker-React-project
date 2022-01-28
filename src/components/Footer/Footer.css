@@ -1,0 +1,21 @@
+.Footer footer {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: x-small;
+  /* color: #bab1ff; */
+  color: #c3b4f3;
+  height: 50px;
+  margin-top: -50px;
+}
+
+.Footer a {
+  color: #f8dfff;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.Footer a:hover{
+  text-decoration: underline;
+}
